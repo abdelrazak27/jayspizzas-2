@@ -1,0 +1,114 @@
+@use '../../styles/colors' as *;
+
+.sectionDivided {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.sectionLeft {
+    width: 50%;
+    div:first-child {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    p {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 25px;
+    }
+}
+
+
+.sectionRight {
+    width: 50%;
+    img {
+        display: flex;
+        margin: 0 auto;
+        max-height: 300px;
+        max-width: 100%;
+    }
+}
+
+.social {
+    cursor: pointer;
+    position: relative;
+    height: 30px;
+    width: 30px;
+    border-radius: 100px;
+    border: none;
+    background: white;
+    box-shadow: 0px 0px 4px rgb(182, 182, 182);
+    i {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 20px;
+        color: $secondary-color;
+    }
+}
+
+.socials {
+    padding-top: 30px;
+    display: flex;
+    gap: 15px;
+}
+
+.feuilles {
+    position: absolute;
+    transform: rotate(-30deg);
+    height: 55px;
+    top: 50px;
+    left: -20px;
+}
+
+.feuille {
+    position: absolute;
+    transform: rotate(30deg);
+    height: 55px;
+    bottom: 50px;
+    right: -15px;
+}
+
+#sectionPropositions {
+    font-family: 'Pacifico', cursive;
+
+    h2 {
+        font-size: 30px;
+        text-align: center;
+        padding: 40px 0 60px 0;
+    }
+
+    span {
+        color: $secondary-color
+    }
+
+    .categories {
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .category {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        width: 22%;
+        img {
+            width: 100%;
+        }
+        a:hover img {
+            transform: rotate(12deg);
+            transition: all ease-in-out .2s;
+        }
+        p {
+            text-align: center;
+            font-size: 20px;
+            cursor: default;
+        }
+    }
+
+}

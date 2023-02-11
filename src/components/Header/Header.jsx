@@ -13,13 +13,16 @@ const Header = observer(() => {
 
     return (
         <header>
-            <nav>
-                <ul>
-                    <li><NavLink className={navStyle} to="/">Home</NavLink></li>
-                    <li><NavLink className={navStyle} to="/contact">Contact</NavLink></li>
-                    <li><NavLink className={navStyle} to="/products">Products</NavLink></li>
-                    <li><NavLink className={navStyle} to="/panier">Panier ({productTotalQuantity})</NavLink></li>
-                </ul>
+            <nav className={style.navbar}>
+                <div className={style.containerNavbar}>
+                    <NavLink className={style.logo} to="/">Jay's Pizzas</NavLink>
+                    <div className={style.navLinks}>
+                        <NavLink className={navStyle} to="/">accueil</NavLink>
+                        <NavLink className={navStyle} to="/products">produits</NavLink>
+                        <NavLink className={navStyle} to="/contact">contact</NavLink>
+                        <NavLink className={navStyle} to="/panier"><i className='bx bxs-cart-alt'><span>{productTotalQuantity}</span></i></NavLink>
+                    </div>
+                </div>
             </nav>
         </header>
     )

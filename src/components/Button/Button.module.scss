@@ -1,11 +1,14 @@
+@use '../../styles/colors' as *;
+
 .button {
     border: none;
-    border-radius: 30px;
-    -webkit-border-radius: 30px;
-    -moz-border-radius: 30px;
-    -ms-border-radius: 30px;
-    -o-border-radius: 30px;
-    padding: 20px 30px;
-    background-color: #799988;
+    border-radius: 8px;
+    padding: 6px 23px;
+    background-color: $secondary-color;
     color: white;
+    text-transform: lowercase;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 15px;
 }

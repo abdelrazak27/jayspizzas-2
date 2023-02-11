@@ -1,3 +1,57 @@
+@use '../../styles/colors' as *;
+
 .activeLink {
-    font-weight: bold;
+    color: $secondary-color;
+}
+
+.logo {
+    font-family: 'Pacifico', cursive;
+    font-size: 28px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: $primary-color;
+    border-radius: 40px 40px 0 0;
+    font-weight: 500;
+    width: calc(100% - 100px);
+}
+
+.containerNavbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    width: 85%;
+    max-width: 1500px;
+}
+
+.navLinks {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    i {
+        font-size: 30px;
+        position: relative;
+        span {
+            position: absolute;
+            top: -7px;
+            right: -10px;
+            color: black;
+            background-color: white;
+            border: 2px solid black;
+            border-radius: 5px;
+            font-size: 12px;
+            padding: 1px 6px 0px 6px;
+            font-weight: 600;
+            font-family: 'Poppins', sans-serif;
+        }
+    }
 }
