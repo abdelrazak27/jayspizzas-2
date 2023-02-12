@@ -30,7 +30,7 @@ const ProductDetails = () => {
     const [quantity, setQuantity] = useState(1);
     const [selectedIngredients, setSelectedIngredients] = useState(ingredients && ingredients.map(ingredient => ingredient.isSelected));
     const priceFormatted = (price.toFixed(2) + "€").replace(".", ",");
-    const allergenesList = allergenes.length > 0 ? allergenes.slice(0, -1).join(", ") + " et " + allergenes.slice(-1) + "." : "Aucun allergène.";
+    const allergenesList = allergenes ? (allergenes.length > 0 ? allergenes.slice(0, -1).join(", ") + " et " + allergenes.slice(-1) + "." : "") : "aucun.";
 
     return (
         <main>
@@ -45,18 +45,19 @@ const ProductDetails = () => {
                     <div className={style.sectionRight}>
                         <div className={style.infosProduct}>
                             <h3>{title} <span>{priceFormatted}</span></h3>
-                            <p>Base : {base}</p>
-                            <p>Allergènes : {allergenesList}</p>
+                            <p>{base ? `Base : ${base}` : ""}</p>
+                            <p>{allergenes ? `Allergènes : ${allergenesList}`: ""}</p>
                         </div>
 
                         <div className={style.ingredients}>
-                        <h5>Choisissez vos ingrédients</h5>
+                        <h5>{ingredients ? `Choisissez vos ingrédients` : ""}</h5>
 
                         {ingredients && ingredients.map((ingredient, index) => (
                             <div key={index}>
                                 <p>
                                     {ingredient.name}
-                                    {id === 18 && selectedIngredients[index] === true && ingredient.name === "mozzarella" ? "Cet ingrédient peut causer des allergies (lactose)" : ""}
+                                    <br />
+                                    <span>{id === 18 && selectedIngredients[index] === true && ingredient.name === "mozzarella" ? "Cet ingrédient peut causer des allergies (lactose)" : ""}</span>
                                 </p>
                                 <Button selected={selectedIngredients[index]} title={selectedIngredients[index] ? <i className='bx bx-check'></i> : <i className='bx bx-x'></i>} callback={() => setSelectedIngredients(
                                     selectedIngredients.map((selected, i) => i === index ? !selected : selected)
