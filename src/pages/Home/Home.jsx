@@ -24,9 +24,9 @@ const Home = () => {
                         </Link>
                     </div>
                     <div className={style.socials}>
-                        <button className={style.social}><i class='bx bxl-facebook'></i></button>
-                        <button className={style.social}><i class='bx bxl-instagram-alt'></i></button>
-                        <button className={style.social}><i class='bx bxl-twitter'></i></button>
+                        <button className={style.social}><i className='bx bxl-facebook'></i></button>
+                        <button className={style.social}><i className='bx bxl-instagram-alt'></i></button>
+                        <button className={style.social}><i className='bx bxl-twitter'></i></button>
                     </div>
                 </div>
                 <div className={style.sectionRight}>

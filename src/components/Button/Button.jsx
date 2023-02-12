@@ -2,10 +2,10 @@ import style from './Button.module.scss';
 
 const Button = (props) => {
 
-    const {title, callback} = props;
+    const {selected, title, callback} = props;
 
     return (
-        <button className={style.button} onClick={callback}>{title}</button>
+        <button className={`${style.button} ${selected === false ? style.buttonRed : ""}`} onClick={callback}>{title}</button>
     );
 }
 

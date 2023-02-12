@@ -1,0 +1,30 @@
+@use '../../styles/colors' as *;
+
+.feuilles {
+    position: absolute;
+    transform: rotate(-10deg);
+    height: 55px;
+    top: 10px;
+    left: -30px;
+}
+
+.feuille {
+    position: absolute;
+    transform: rotate(60deg);
+    height: 45px;
+    bottom: -20px;
+    right: 70px;
+}
+
+#sectionContact {
+    p {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+    }
+    
+    span {
+        color: $secondary-color;
+        cursor: pointer;
+    }
+}

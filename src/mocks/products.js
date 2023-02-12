@@ -1,8 +1,25 @@
+import pizza1 from "../images/pizza1.png";
+import pizza2 from "../images/pizza2.png";
+import pizza3 from "../images/pizza3.png";
+import pizza4 from "../images/pizza4.png";
+import pizza5 from "../images/pizza5.png";
+import pizza6 from "../images/pizza6.png";
+import pizza7 from "../images/pizza7.png";
+import pizza8 from "../images/pizza8.png";
+import pizza9 from "../images/pizza9.png";
+import boisson1 from "../images/boisson1.png";
+import boisson2 from "../images/boisson2.png";
+import brownie from "../images/brownie.png";
+
 export const PRODUCTS = [
     {
         id: 1,
         title: "Margherita",
         category: "pizza",
+        image: {
+            src: pizza1,
+            alt: "illustration pizza"
+        },
         ingredients: [
             {
                 name: "mozzarella",
@@ -17,6 +34,10 @@ export const PRODUCTS = [
         id: 2,
         title: "Végératienne",
         category: "pizza",
+        image: {
+            src: pizza2,
+            alt: "illustration pizza"
+        },
         ingredients: [
             {
                 name: "mozzarella",
@@ -55,6 +76,10 @@ export const PRODUCTS = [
         id: 3,
         title: "La basilic",
         category: "pizza",
+        image: {
+            src: pizza3,
+            alt: "illustration pizza"
+        },
         ingredients: [
             {
                 name: "mozzarella",
@@ -77,6 +102,10 @@ export const PRODUCTS = [
         id: 4,
         title: "Veggie Roquette",
         category: "pizza",
+        image: {
+            src: pizza4,
+            alt: "illustration pizza"
+        },
         ingredients: [
             {
                 name: "mozzarella",
@@ -107,6 +136,10 @@ export const PRODUCTS = [
         id: 5,
         title: "Veggie Spicy",
         category: "pizza",
+        image: {
+            src: pizza5,
+            alt: "illustration pizza"
+        },
         ingredients: [
             {
                 name: "mozzarella",
@@ -141,6 +174,10 @@ export const PRODUCTS = [
         id: 6,
         title: "Reine",
         category: "pizza",
+        image: {
+            src: pizza6,
+            alt: "illustration pizza"
+        },
         ingredients: [
             {
                 name: "mozzarella",
@@ -163,6 +200,10 @@ export const PRODUCTS = [
         id: 7,
         title: "Hawaienne",
         category: "pizza",
+        image: {
+            src: pizza7,
+            alt: "illustration pizza"
+        },
         ingredients: [
             {
                 name: "mozzarella",
@@ -185,6 +226,10 @@ export const PRODUCTS = [
         id: 8,
         title: "Paysanne",
         category: "pizza",
+        image: {
+            src: pizza8,
+            alt: "illustration pizza"
+        },
         ingredients: [
             {
                 name: "mozzarella",
@@ -211,6 +256,10 @@ export const PRODUCTS = [
         id: 9,
         title: "Chorizo",
         category: "pizza",
+        image: {
+            src: pizza9,
+            alt: "illustration pizza"
+        },
         ingredients: [
             {
                 name: "mozzarella",
@@ -229,6 +278,10 @@ export const PRODUCTS = [
         id: 10,
         title: "Antillaise",
         category: "pizza",
+        image: {
+            src: pizza1,
+            alt: "illustration pizza"
+        },
         ingredients: [
             {
                 name: "mozzarella",
@@ -259,6 +312,10 @@ export const PRODUCTS = [
         id: 11,
         title: "Pimento",
         category: "pizza",
+        image: {
+            src: pizza1,
+            alt: "illustration pizza"
+        },
         ingredients: [
             {
                 name: "mozzarella",
@@ -285,6 +342,10 @@ export const PRODUCTS = [
         id: 12,
         title: "La miel",
         category: "pizza",
+        image: {
+            src: pizza2,
+            alt: "illustration pizza"
+        },
         ingredients: [
             {
                 name: "mozzarella",
@@ -315,6 +376,10 @@ export const PRODUCTS = [
         id: 13,
         title: "Indienne",
         category: "pizza",
+        image: {
+            src: pizza3,
+            alt: "illustration pizza"
+        },
         ingredients: [
             {
                 name: "mozzarella",
@@ -341,6 +406,10 @@ export const PRODUCTS = [
         id: 14,
         title: "Bollywood",
         category: "pizza",
+        image: {
+            src: pizza4,
+            alt: "illustration pizza"
+        },
         ingredients: [
             {
                 name: "mozzarella",
@@ -371,6 +440,10 @@ export const PRODUCTS = [
         id: 15,
         title: "Boursin",
         category: "pizza",
+        image: {
+            src: pizza5,
+            alt: "illustration pizza"
+        },
         ingredients: [
             {
                 name: "mozzarella",
@@ -397,6 +470,10 @@ export const PRODUCTS = [
         id: 16,
         title: "Marocaine",
         category: "pizza",
+        image: {
+            src: pizza6,
+            alt: "illustration pizza"
+        },
         ingredients: [
             {
                 name: "mozzarella",
@@ -427,6 +504,10 @@ export const PRODUCTS = [
         id: 17,
         title: "Chicken",
         category: "pizza",
+        image: {
+            src: pizza7,
+            alt: "illustration pizza"
+        },
         ingredients: [
             {
                 name: "mozzarella",
@@ -450,6 +531,10 @@ export const PRODUCTS = [
         title: "Je crée ma pizza",
         // tous, mais isSelected à false par défaut (voir site de fivepizza)
         category: "pizza",
+        image: {
+            src: pizza8,
+            alt: "illustration pizza"
+        },
         ingredients: [
             {
                 name: "mozzarella",
@@ -564,48 +649,80 @@ export const PRODUCTS = [
         id: 19,
         title: "Cristaline",
         category: "boisson",
+        image: {
+            src: boisson1,
+            alt: "canette vert"
+        },
         price: 2.50
     },
     {
         id: 20,
         title: "Perrier",
         category: "boisson",
+        image: {
+            src: boisson2,
+            alt: "canette rouge"
+        },
         price: 2.50
     },
     {
         id: 21,
         title: "Coca Cola",
         category: "boisson",
+        image: {
+            src: boisson1,
+            alt: "canette vert"
+        },
         price: 3.50
     },
     {
         id: 22,
         title: "Coca Cola Zero",
         category: "boisson",
+        image: {
+            src: boisson2,
+            alt: "canette rouge"
+        },
         price: 3.50
     },
     {
         id: 23,
         title: "Fanta",
         category: "boisson",
+        image: {
+            src: boisson2,
+            alt: "canette rouge"
+        },
         price: 3.50
     },
     {
         id: 24,
         title: "Sprite",
         category: "boisson",
+        image: {
+            src: boisson1,
+            alt: "canette vert"
+        },
         price: 3.50
     },
     {
         id: 25,
         title: "Orangina",
         category: "boisson",
+        image: {
+            src: boisson2,
+            alt: "canette rouge"
+        },
         price: 3.50
     },
     {
         id: 26,
         title: "Brownie",
         category: "dessert",
+        image: {
+            src: brownie,
+            alt: "brownie"
+        },
         allergenes: ["lactose","gluten","oeufs","noix"],
         price: 4.90
     },
@@ -613,6 +730,10 @@ export const PRODUCTS = [
         id: 27,
         title: "Tiramisu",
         category: "dessert",
+        image: {
+            src: brownie,
+            alt: "brownie"
+        },
         allergenes: ["lactose","gluten","oeufs"],
         price: 4.90
     },
@@ -620,6 +741,10 @@ export const PRODUCTS = [
         id: 28,
         title: "Sundae",
         category: "dessert",
+        image: {
+            src: brownie,
+            alt: "brownie"
+        },
         allergenes: ["lactose","gluten","oeufs"],
         price: 4.90
     },
@@ -627,6 +752,10 @@ export const PRODUCTS = [
         id: 29,
         title: "Milkshake",
         category: "dessert",
+        image: {
+            src: brownie,
+            alt: "brownie"
+        },
         allergenes: ["lactose","gluten","oeufs"],
         price: 4.90
     }

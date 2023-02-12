@@ -1,0 +1,31 @@
+@use '../../styles/colors' as *;
+
+.quantityPicker {
+    display: flex;
+    align-items: center;
+    p {
+        margin-left: 20px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        font-size: 18px;
+    }
+    button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 5px;
+        height: 30px;
+        width: 30px;
+        border-radius: 4px;
+        border: none;
+        color: white;
+        background: $secondary-color;
+        font-size: 20px;
+        font-weight: 500;
+        cursor: pointer;
+        &:disabled {
+            cursor: default;
+            background-color: lighten($secondary-color, 30%);
+        }
+    }
+}
