@@ -1,5 +1,4 @@
 import style from "./QuantityPicker.module.scss";
-import Button from "../Button/Button";
 
 const QuantityPicker = (props) => {
 
