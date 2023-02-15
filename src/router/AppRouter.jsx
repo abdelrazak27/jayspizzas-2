@@ -6,6 +6,8 @@ import Home from "../pages/Home/Home";
 import ErrorPage from "../pages/ErrorPage/ErrorPage";
 import ProductDetails, { productLoader } from "../pages/ProductDetails/ProductDetails";
 import Cart from "../pages/Cart/Cart";
+import Paiement from "../pages/Paiement/Paiement";
+import Recapitulatif from "../pages/Recapitulatif/Reacapitulatif";
 
 const AppRouter = () => {
 
@@ -39,6 +41,14 @@ const AppRouter = () => {
                         {
                             path: "/panier",
                             element: <Cart />
+                        },
+                        {
+                            path: "/Paiement",
+                            element: <Paiement />
+                        },
+                        {
+                            path: "/Recapitulatif",
+                            element: <Recapitulatif />
                         }
                     ]
                 }

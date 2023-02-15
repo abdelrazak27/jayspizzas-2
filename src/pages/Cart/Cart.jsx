@@ -20,9 +20,13 @@ const Cart = observer(() => {
                         <QuantityPicker quantity={product.quantity} onClickPlus={product.increment} onClickMinus={product.decrement} />
                         <Button title="supprimer" callback={() => removeFromCart(product.id)}/>
                     </article>)}
+                    <div>  <a href="/paiement"> <button>Payer {totalPrice}€</button></a></div>
+              
             </ul>
         </main>
+        
     )
+   
 })
 
 export default Cart;

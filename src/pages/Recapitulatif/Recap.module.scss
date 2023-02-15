@@ -1,0 +1,59 @@
+@use '../../styles/colors' as *;
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+   
+    border-radius: 25px;
+    border-color: #42A047;
+  }
+
+
+
+.feuilles {
+    position: absolute;
+    transform: rotate(-10deg);
+    height: 55px;
+    top: 10px;
+    left: -30px;
+}
+
+.feuille {
+    position: absolute;
+    transform: rotate(60deg);
+    height: 45px;
+    bottom: -20px;
+    right: 70px;
+}
+
+
+
+#sectionRecap {
+    
+    h1{
+        font-size: 25px;
+        text-align: center;
+        padding: 10px 0 50px 0;
+        font-family: 'Pacifico', cursive;
+    }
+
+    h2{
+        font-size: 20px;
+        text-align: center;
+        padding: 10px 0 0px 0;
+       
+    }
+
+    h3{
+        font-size: 20px;
+        text-align: center;
+        padding: 10px 0 70px 0;
+       
+    }
+    
+   
+    
+
+    }
+
