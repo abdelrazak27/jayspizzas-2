@@ -1,19 +1,13 @@
 import { observer } from "mobx-react-lite";
-import Button from "../../components/Button/Button";
-import QuantityPicker from "../../components/QuantityPicker/QuantityPicker";
 import { useStore } from "../../contexts/store.context";
 import style from "./Recap.module.scss";
 import styleApp from "../../App.module.scss";
 import feuilles from "../../images/feuilles.png";
 import feuille from "../../images/feuille.png";
 
-import {useNavigate} from 'react-router-dom';
-
 const Recap = observer(() => {
-
-    const navigate = useNavigate();
     const {cart} = useStore();
-    const {products, removeFromCart, totalPrice, resetCart} = cart;
+    const {products, totalPrice, resetCart} = cart;
    
     return (
         <main>
