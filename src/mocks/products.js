@@ -27,7 +27,7 @@ export const PRODUCTS = [
             }
         ],
         base: "sauce tomate",
-        allergenes: ["lactose","gluten","oeufs"],
+        allergenes: ["lactose", "gluten", "oeufs"],
         price: 6.90
     },
     {
@@ -69,7 +69,7 @@ export const PRODUCTS = [
             }
         ],
         base: "sauce tomate",
-        allergenes: ["lactose","gluten","oeufs"],
+        allergenes: ["lactose", "gluten", "oeufs"],
         price: 6.90
     },
     {
@@ -95,7 +95,7 @@ export const PRODUCTS = [
             }
         ],
         base: "sauce tomate",
-        allergenes: ["lactose","gluten","oeufs"],
+        allergenes: ["lactose", "gluten", "oeufs"],
         price: 6.90
     },
     {
@@ -129,7 +129,7 @@ export const PRODUCTS = [
             },
         ],
         base: "sauce tomate",
-        allergenes: ["lactose","gluten","oeufs"],
+        allergenes: ["lactose", "gluten", "oeufs"],
         price: 6.90
     },
     {
@@ -167,7 +167,7 @@ export const PRODUCTS = [
             },
         ],
         base: "sauce tomate",
-        allergenes: ["lactose","gluten","oeufs"],
+        allergenes: ["lactose", "gluten", "oeufs"],
         price: 6.90
     },
     {
@@ -193,7 +193,7 @@ export const PRODUCTS = [
             },
         ],
         base: "sauce tomate",
-        allergenes: ["lactose","gluten","oeufs"],
+        allergenes: ["lactose", "gluten", "oeufs"],
         price: 6.90
     },
     {
@@ -219,7 +219,7 @@ export const PRODUCTS = [
             },
         ],
         base: "sauce tomate",
-        allergenes: ["lactose","gluten","oeufs"],
+        allergenes: ["lactose", "gluten", "oeufs"],
         price: 6.90
     },
     {
@@ -249,7 +249,7 @@ export const PRODUCTS = [
             },
         ],
         base: "crème fraîche",
-        allergenes: ["lactose","gluten","oeufs"],
+        allergenes: ["lactose", "gluten", "oeufs"],
         price: 6.90
     },
     {
@@ -271,7 +271,7 @@ export const PRODUCTS = [
             },
         ],
         base: "sauce tomate",
-        allergenes: ["lactose","gluten","oeufs"],
+        allergenes: ["lactose", "gluten", "oeufs"],
         price: 6.90
     },
     {
@@ -305,7 +305,7 @@ export const PRODUCTS = [
             },
         ],
         base: "sauce colombo",
-        allergenes: ["lactose","gluten","oeufs"],
+        allergenes: ["lactose", "gluten", "oeufs"],
         price: 8.90
     },
     {
@@ -335,7 +335,7 @@ export const PRODUCTS = [
             },
         ],
         base: "sauce chili thaï",
-        allergenes: ["lactose","gluten","oeufs"],
+        allergenes: ["lactose", "gluten", "oeufs"],
         price: 8.90
     },
     {
@@ -369,7 +369,7 @@ export const PRODUCTS = [
             },
         ],
         base: "crème fraîche",
-        allergenes: ["lactose","gluten","oeufs"],
+        allergenes: ["lactose", "gluten", "oeufs"],
         price: 8.90
     },
     {
@@ -399,7 +399,7 @@ export const PRODUCTS = [
             },
         ],
         base: "sauce curry",
-        allergenes: ["lactose","gluten","oeufs"],
+        allergenes: ["lactose", "gluten", "oeufs"],
         price: 8.90
     },
     {
@@ -433,7 +433,7 @@ export const PRODUCTS = [
             },
         ],
         base: "sauce curry",
-        allergenes: ["lactose","gluten","oeufs"],
+        allergenes: ["lactose", "gluten", "oeufs"],
         price: 8.90
     },
     {
@@ -463,7 +463,7 @@ export const PRODUCTS = [
             },
         ],
         base: "crème fraîche",
-        allergenes: ["lactose","gluten","oeufs"],
+        allergenes: ["lactose", "gluten", "oeufs"],
         price: 8.90
     },
     {
@@ -497,7 +497,7 @@ export const PRODUCTS = [
             },
         ],
         base: "sauce marocaine",
-        allergenes: ["lactose","gluten","oeufs"],
+        allergenes: ["lactose", "gluten", "oeufs"],
         price: 8.90
     },
     {
@@ -523,7 +523,7 @@ export const PRODUCTS = [
             },
         ],
         base: "crème fraîche",
-        allergenes: ["lactose","gluten","oeufs"],
+        allergenes: ["lactose", "gluten", "oeufs"],
         price: 8.90
     },
     {
@@ -642,7 +642,7 @@ export const PRODUCTS = [
             },
         ],
         base: "crème fraîche",
-        allergenes: ["gluten","oeufs"],
+        allergenes: ["gluten", "oeufs"],
         price: 10.90
     },
     {
@@ -723,7 +723,7 @@ export const PRODUCTS = [
             src: brownie,
             alt: "brownie"
         },
-        allergenes: ["lactose","gluten","oeufs","noix"],
+        allergenes: ["lactose", "gluten", "oeufs", "noix"],
         price: 4.90
     },
     {
@@ -734,7 +734,7 @@ export const PRODUCTS = [
             src: brownie,
             alt: "brownie"
         },
-        allergenes: ["lactose","gluten","oeufs"],
+        allergenes: ["lactose", "gluten", "oeufs"],
         price: 4.90
     },
     {
@@ -745,7 +745,7 @@ export const PRODUCTS = [
             src: brownie,
             alt: "brownie"
         },
-        allergenes: ["lactose","gluten","oeufs"],
+        allergenes: ["lactose", "gluten", "oeufs"],
         price: 4.90
     },
     {
@@ -756,7 +756,7 @@ export const PRODUCTS = [
             src: brownie,
             alt: "brownie"
         },
-        allergenes: ["lactose","gluten","oeufs"],
+        allergenes: ["lactose", "gluten", "oeufs"],
         price: 4.90
     }
 ]

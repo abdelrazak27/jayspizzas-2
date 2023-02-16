@@ -6,9 +6,9 @@ import { useStore } from "../../contexts/store.context";
 
 const Header = observer(() => {
 
-    const {cart: {productTotalQuantity}} = useStore();
+    const { cart: { productTotalQuantity } } = useStore();
 
-    const navStyle = ({isActive}) => isActive ? style.activeLink : null;
+    const navStyle = ({ isActive }) => isActive ? style.activeLink : null;
 
 
     return (

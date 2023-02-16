@@ -15,13 +15,13 @@ const Home = () => {
     return (
         <main>
             <section className={`${styleApp.sectionColored} ${style.sectionDivided}`}>
-                <img className={style.feuilles} src={feuilles} alt=""/>
-                <img className={style.feuille} src={feuille} alt=""/>
+                <img className={style.feuilles} src={feuilles} alt="" />
+                <img className={style.feuille} src={feuille} alt="" />
                 <div className={style.sectionLeft}>
                     <div>
                         <p>Rejoignez-nous pour une expérience gastronomique digne de l'Italie, où chaque bouchée de notre pizza vous transportera dans les rues de Napoli.</p>
                         <Link to="/products">
-                            <Button title="nos produits"/>
+                            <Button title="nos produits" />
                         </Link>
                     </div>
                     <div className={style.socials}>
@@ -55,7 +55,7 @@ const Home = () => {
                         </Link>
                         <p>Des <span>boissons</span> fraîches</p>
                     </div>
-                    
+
                 </div>
             </section>
         </main>

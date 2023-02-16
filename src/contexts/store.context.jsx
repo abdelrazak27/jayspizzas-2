@@ -5,11 +5,11 @@ import persist from "mst-persist";
 const StoreContext = createContext();
 
 export const StoreContextProvider = (props) => {
-    const {children} = props;
+    const { children } = props;
 
     const [isLoading, setIsLoading] = useState(true);
 
-    const initStore = async() => {
+    const initStore = async () => {
         persist('all', rootStore, {
             storage: localStorage
         }).then(() => {

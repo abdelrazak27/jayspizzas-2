@@ -9,27 +9,27 @@ import Button from "../../components/Button/Button";
 
 
 const Recap = observer(() => {
-    const {cart} = useStore();
-    const {products, totalPrice, resetCart} = cart;
-   
+    const { cart } = useStore();
+    const { products, totalPrice, resetCart } = cart;
+
     return (
         <main>
             <section id={style.sectionRecap} className={styleApp.sectionColored}>
-            <img className={style.feuilles} src={feuilles} alt=""/>
-            <img className={style.feuille} src={feuille} alt=""/>
+                <img className={style.feuilles} src={feuilles} alt="" />
+                <img className={style.feuille} src={feuille} alt="" />
 
-            <h1>Voici  un récap' de votre commande :</h1>
-        
-           
-              <ul>
-                   {products.map((product) => 
-                      <article key={product.id}>
-                            <h3>{product.title} | {product.price}€ &nbsp;&nbsp; x {product.quantity} </h3> 
-                           
-                      </article>)}
-                      <h3>Total : {totalPrice}€</h3>
+                <h1>Voici  un récap' de votre commande :</h1>
+
+
+                <ul>
+                    {products.map((product) =>
+                        <article key={product.id}>
+                            <h3>{product.title} | {product.price}€ &nbsp;&nbsp; x {product.quantity} </h3>
+
+                        </article>)}
+                    <h3>Total : {totalPrice}€</h3>
                 </ul>
-                <h2>Nous remercions pour votre choix !</h2>
+                <h2>Nous vous remercions pour votre choix !</h2>
                 <h2>Nous commençons tout de suite la préparation de votre commande.</h2>
                 <div className={style.btn}>
                     <Link to='/'>

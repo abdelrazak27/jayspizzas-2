@@ -1,5 +1,5 @@
-import {types} from "mobx-state-tree";
-import {CartStore, cartStore} from "./cart.store";
+import { types } from "mobx-state-tree";
+import { CartStore, cartStore } from "./cart.store";
 import { productsStore, ProductsStore } from "./products.store";
 
 export const RootStore = types.model({

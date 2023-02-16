@@ -17,17 +17,17 @@ const Product = types.model("Product", {
 })
 
 export const ProductsStore = types.model("ProductsStore", {
-        products: types.array(Product),
+    products: types.array(Product),
 })
-.actions((self) => ({
-    loadProducts: flow(function* () {
-        try {
-            self.products = yield getProducts();
-        } catch (err) {
-            console.log(err)
-        }
-    }),
-}));
+    .actions((self) => ({
+        loadProducts: flow(function* () {
+            try {
+                self.products = yield getProducts();
+            } catch (err) {
+                console.log(err)
+            }
+        }),
+    }));
 
 export const productsStore = ProductsStore.create({
     products: []

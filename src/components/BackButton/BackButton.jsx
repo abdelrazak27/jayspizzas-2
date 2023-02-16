@@ -8,7 +8,7 @@ const BackButton = () => {
     }
 
     return (
-        <Button title="retour" callback={goBack}/>
+        <Button title="retour" callback={goBack} />
     )
 }
 
