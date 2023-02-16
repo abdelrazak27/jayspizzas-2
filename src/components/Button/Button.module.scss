@@ -6,11 +6,13 @@
     padding: 6px 23px;
     background-color: $secondary-color;
     color: white;
-    text-transform: lowercase;
     font-family: 'Poppins', sans-serif;
     cursor: pointer;
     font-weight: 500;
     font-size: 15px;
+    &::first-letter{
+        text-transform: uppercase;
+    }
 }
 
 .buttonRed {

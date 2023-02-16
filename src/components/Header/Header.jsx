@@ -17,9 +17,9 @@ const Header = observer(() => {
                 <div className={style.containerNavbar}>
                     <NavLink className={style.logo} to="/">Jay's Pizzas</NavLink>
                     <div className={style.navLinks}>
-                        <NavLink className={navStyle} to="/">accueil</NavLink>
-                        <NavLink className={navStyle} to="/products">produits</NavLink>
-                        <NavLink className={navStyle} to="/contact">contact</NavLink>
+                        <NavLink className={navStyle} to="/">Accueil</NavLink>
+                        <NavLink className={navStyle} to="/products">Produits</NavLink>
+                        <NavLink className={navStyle} to="/contact">Contact</NavLink>
                         <NavLink className={navStyle} to="/panier"><i className='bx bxs-cart-alt'><span>{productTotalQuantity}</span></i></NavLink>
                     </div>
                 </div>
