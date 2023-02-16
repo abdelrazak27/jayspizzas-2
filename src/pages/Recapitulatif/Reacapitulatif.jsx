@@ -4,6 +4,9 @@ import style from "./Recap.module.scss";
 import styleApp from "../../App.module.scss";
 import feuilles from "../../images/feuilles.png";
 import feuille from "../../images/feuille.png";
+import { Link } from "react-router-dom";
+import Button from "../../components/Button/Button";
+
 
 const Recap = observer(() => {
     const {cart} = useStore();
@@ -28,8 +31,15 @@ const Recap = observer(() => {
                 </ul>
                 <h2>Nous remercions pour votre choix !</h2>
                 <h2>Nous commençons tout de suite la préparation de votre commande.</h2>
-                <div className={style.btn}>  <a href="/"> <button onClick={resetCart}>Quitter </button></a></div>
-              
+                <div className={style.btn}>
+                    <Link to='/'>
+                        <Button
+                            title="Quitter"
+                            callback={resetCart}
+                        />
+                    </Link>
+                </div>
+
 
             </section>
         </main>

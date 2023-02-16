@@ -1,0 +1,16 @@
+.button {
+  border: none;
+  border-radius: 8px;
+  padding: 6px 23px;
+  background-color: #42A047;
+  color: white;
+  text-transform: lowercase;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.buttonRed {
+  background: #FF2E2E;
+}/*# sourceMappingURL=Button.module.css.map */

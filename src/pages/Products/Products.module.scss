@@ -1,0 +1,39 @@
+@use '../../styles/colors' as *;
+
+.feuilles {
+    position: absolute;
+    transform: rotate(-30deg);
+    height: 40px;
+    top: 30px;
+    left: -20px;
+}
+
+.feuille {
+    position: absolute;
+    transform: rotate(45deg);
+    height: 30px;
+    bottom: 50px;
+    right: -15px;
+}
+
+#sectionHeader {
+    text-align: center;
+    font-weight: 500;
+}
+
+.categoryTitle {
+    margin-top: 50px;
+    font-size: 40px;
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    span {
+        color: $secondary-color;
+    }
+}
+
+.categoryProducts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}

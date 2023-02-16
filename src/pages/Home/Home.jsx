@@ -8,6 +8,7 @@ import feuille from "../../images/feuille.png";
 import pizzas from "../../images/pizzas.png";
 import desserts from "../../images/desserts.png";
 import boissons from "../../images/boissons.png";
+import imageHome from "../../images/JAYS_PIZZAS.png"
 
 const Home = () => {
 
@@ -30,7 +31,7 @@ const Home = () => {
                     </div>
                 </div>
                 <div className={style.sectionRight}>
-                    <img src="https://imgs.search.brave.com/0Phbn0ycrNwDONqWQGJv_lNJc-8it55i87fHfmc2Zy0/rs:fit:1200:1200:1/g:ce/aHR0cDovL3d3dy5z/bnV0LmZyL3dwLWNv/bnRlbnQvdXBsb2Fk/cy8yMDE1LzA4L2lt/YWdlLWRlLXBheXNh/Z2UuanBn" alt="test" />
+                    <img src={imageHome} alt="" />
                 </div>
             </section>
             <section id={style.sectionPropositions}>

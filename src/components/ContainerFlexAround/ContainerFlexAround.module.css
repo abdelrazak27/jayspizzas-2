@@ -1,1 +1,7 @@
-.wrapper{background-color:#96c77b;height:20vh;display:flex;align-items:center;justify-content:space-around}
+.wrapper {
+  background-color: rgb(150, 199, 123);
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}/*# sourceMappingURL=ContainerFlexAround.module.css.map */

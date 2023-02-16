@@ -1,0 +1,23 @@
+.errorText {
+  color: #FF2E2E;
+}
+
+section {
+  position: relative;
+  margin: 0 50px;
+}
+
+.sectionColored {
+  background-color: #fff5df;
+  border-radius: 0 0 40px 40px;
+  padding: 50px 10%;
+}
+
+body {
+  margin: 0 auto 70px auto;
+  max-width: 1000px;
+}
+
+html {
+  min-height: 100vh;
+}/*# sourceMappingURL=App.module.css.map */
